@@ -7,7 +7,7 @@ import ProductCard from './ProductCard';
 const Home = () => {
     const products = useLoaderData();
     const allProducts = products.slice(0, 8);
-    console.log(products)
+
     return (
         <div>
             <Bannar></Bannar>
