@@ -4,32 +4,32 @@ import playstore from '../assets/playstore.png'
 import appstore from '../assets/appstore.png'
 const Bannar = () => {
     return (
-        <div className=' bg-[#D2D2D2]'>
+        <div className=' bg-[#D2D2D2] pt-5'>
             <h1 className='text-[60px] font-bold text-center'>We Build <br />
                 <span className='text-[#7941E9] text-[70px] font-black'> Productive </span>Apps
             </h1>
-            <p className='text-[#627382] text-[16px] font-medium text-center'>
+            <p className='text-[#627382] text-[16px] font-medium text-center px-10 py-5 md:py-0 md:px-0'>
                 At,HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.
             </p>
-            <div className='flex justify-center items-center gap-5 pt-10'>
+            <div className='flex justify-center items-center gap-5 pt-10 px-10 md:px-0'>
                 <button className='btn bg-[#D2D2D2] px-6 py-3 text-[20px] text-[#001931] font-semibold'><img src={playstore} alt="" />Google Play</button>
                 <button className='btn bg-[#D2D2D2] px-6 py-3  text-[20px] text-[#001931] font-semibold'>  <img src={appstore} alt="" />App Store</button>
 
             </div>
-            <div className='pt-10 flex justify-center items-center'>
+            <div className='px-5 md:px-0 pt-10 flex justify-center items-center'>
                 <img src={bannarImg} alt="" />
             </div>
 
 
-            <div className='bg-[#8148EB] px-40 py-10 text-white w-full'>
+            <div className='bg-[#8148EB] px-5  md:px-40 py-10 text-white w-full'>
                 <h1 className='text-center text-2xl font-bold'>Trusted by Millions, Built for You</h1>
-                <div className='flex justify-between items-center py-10 '>
+                <div className='flex flex-col md:flex-row  justify-between items-center py-10 '>
                     <div>
                         <h3>Total Downloads</h3>
-                        <h1 className='text-5xl font-extrabold py-3'>29.6M</h1>
+                        <h1 className='text-5xl font-extrabold py-1 md:py-3'>29.6M</h1>
                         <h4>21% more than last month</h4>
                     </div>
-                    <div>
+                    <div className='py-10 md:py-0'>
                         <h3>Total Reviews</h3>
                         <h1 className='text-5xl font-extrabold py-3'>906K</h1>
                         <h4>40% more than last month</h4>

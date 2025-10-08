@@ -493,5 +493,500 @@
                 "count": 9700
             }
         ]
+    },
+    {
+        "image": "https://i.ibb.co/app16.png",
+        "title": "LangMaster",
+        "companyName": "EduTech Global",
+        "id": 16,
+        "description": "Learn over 50 languages with AI-driven lessons, quizzes, and pronunciation tools.",
+        "size": 85,
+        "reviews": 11200,
+        "ratingAvg": 4.6,
+        "downloads": 2100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 400
+            },
+            {
+                "name": "2 star",
+                "count": 700
+            },
+            {
+                "name": "3 star",
+                "count": 1600
+            },
+            {
+                "name": "4 star",
+                "count": 3800
+            },
+            {
+                "name": "5 star",
+                "count": 6700
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app17.png",
+        "title": "RideOn",
+        "companyName": "Urban Mobility Co.",
+        "id": 17,
+        "description": "Book rides instantly with top-rated drivers and real-time GPS tracking.",
+        "size": 90,
+        "reviews": 15600,
+        "ratingAvg": 4.5,
+        "downloads": 5800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 2700
+            },
+            {
+                "name": "4 star",
+                "count": 4800
+            },
+            {
+                "name": "5 star",
+                "count": 6000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app18.png",
+        "title": "PetCare+",
+        "companyName": "FurFriend Labs",
+        "id": 18,
+        "description": "Track your pet’s health, vaccinations, and find nearby vets easily.",
+        "size": 40,
+        "reviews": 5200,
+        "ratingAvg": 4.3,
+        "downloads": 600000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200
+            },
+            {
+                "name": "2 star",
+                "count": 300
+            },
+            {
+                "name": "3 star",
+                "count": 900
+            },
+            {
+                "name": "4 star",
+                "count": 1800
+            },
+            {
+                "name": "5 star",
+                "count": 2000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app19.png",
+        "title": "Weatherly",
+        "companyName": "SkyVision Tech",
+        "id": 19,
+        "description": "Accurate weather forecasts, radar maps, and severe weather alerts.",
+        "size": 55,
+        "reviews": 8800,
+        "ratingAvg": 4.4,
+        "downloads": 2300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 400
+            },
+            {
+                "name": "2 star",
+                "count": 700
+            },
+            {
+                "name": "3 star",
+                "count": 1500
+            },
+            {
+                "name": "4 star",
+                "count": 3100
+            },
+            {
+                "name": "5 star",
+                "count": 4100
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app20.png",
+        "title": "CryptoWatch",
+        "companyName": "BlockCore Analytics",
+        "id": 20,
+        "description": "Track real-time cryptocurrency prices, charts, and market trends.",
+        "size": 77,
+        "reviews": 9500,
+        "ratingAvg": 4.5,
+        "downloads": 3300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600
+            },
+            {
+                "name": "2 star",
+                "count": 800
+            },
+            {
+                "name": "3 star",
+                "count": 1700
+            },
+            {
+                "name": "4 star",
+                "count": 3200
+            },
+            {
+                "name": "5 star",
+                "count": 4200
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app21.png",
+        "title": "FoodRush",
+        "companyName": "EatNow Services",
+        "id": 21,
+        "description": "Order food from local restaurants and get it delivered in minutes.",
+        "size": 110,
+        "reviews": 23500,
+        "ratingAvg": 4.6,
+        "downloads": 7800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1200
+            },
+            {
+                "name": "2 star",
+                "count": 1600
+            },
+            {
+                "name": "3 star",
+                "count": 3100
+            },
+            {
+                "name": "4 star",
+                "count": 5800
+            },
+            {
+                "name": "5 star",
+                "count": 10700
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app22.png",
+        "title": "PhotoFix",
+        "companyName": "VisionEdit Labs",
+        "id": 22,
+        "description": "AI-powered photo enhancement and background remover tool.",
+        "size": 68,
+        "reviews": 7200,
+        "ratingAvg": 4.3,
+        "downloads": 1500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 400
+            },
+            {
+                "name": "2 star",
+                "count": 600
+            },
+            {
+                "name": "3 star",
+                "count": 1300
+            },
+            {
+                "name": "4 star",
+                "count": 2200
+            },
+            {
+                "name": "5 star",
+                "count": 3300
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app23.png",
+        "title": "MindQuiz",
+        "companyName": "BrainWave Studios",
+        "id": 23,
+        "description": "Challenge your brain with thousands of fun puzzles and trivia games.",
+        "size": 60,
+        "reviews": 11200,
+        "ratingAvg": 4.7,
+        "downloads": 1900000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 500
+            },
+            {
+                "name": "3 star",
+                "count": 1100
+            },
+            {
+                "name": "4 star",
+                "count": 2600
+            },
+            {
+                "name": "5 star",
+                "count": 6700
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app24.png",
+        "title": "DocuScan",
+        "companyName": "Scanify Inc.",
+        "id": 24,
+        "description": "Scan, edit, and share documents as PDF instantly from your phone.",
+        "size": 48,
+        "reviews": 7400,
+        "ratingAvg": 4.4,
+        "downloads": 1700000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 500
+            },
+            {
+                "name": "3 star",
+                "count": 1100
+            },
+            {
+                "name": "4 star",
+                "count": 2500
+            },
+            {
+                "name": "5 star",
+                "count": 4800
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app25.png",
+        "title": "BudgetBee",
+        "companyName": "FinanceFlex",
+        "id": 25,
+        "description": "Save money smartly with AI spending analysis and saving goals.",
+        "size": 58,
+        "reviews": 6200,
+        "ratingAvg": 4.5,
+        "downloads": 1200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200
+            },
+            {
+                "name": "2 star",
+                "count": 400
+            },
+            {
+                "name": "3 star",
+                "count": 800
+            },
+            {
+                "name": "4 star",
+                "count": 2100
+            },
+            {
+                "name": "5 star",
+                "count": 4500
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app26.png",
+        "title": "GardenPro",
+        "companyName": "GreenGrow Ltd.",
+        "id": 26,
+        "description": "Track plant growth, get watering reminders, and AI plant disease detection.",
+        "size": 42,
+        "reviews": 5100,
+        "ratingAvg": 4.2,
+        "downloads": 670000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 400
+            },
+            {
+                "name": "3 star",
+                "count": 900
+            },
+            {
+                "name": "4 star",
+                "count": 1500
+            },
+            {
+                "name": "5 star",
+                "count": 2000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app27.png",
+        "title": "QuickNews",
+        "companyName": "InfoStream Media",
+        "id": 27,
+        "description": "Get the latest global and local news with AI-curated headlines.",
+        "size": 65,
+        "reviews": 11000,
+        "ratingAvg": 4.3,
+        "downloads": 3200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500
+            },
+            {
+                "name": "2 star",
+                "count": 800
+            },
+            {
+                "name": "3 star",
+                "count": 1700
+            },
+            {
+                "name": "4 star",
+                "count": 3400
+            },
+            {
+                "name": "5 star",
+                "count": 4600
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app28.png",
+        "title": "Eventify",
+        "companyName": "PlanGo Technologies",
+        "id": 28,
+        "description": "Plan and manage events, send invites, and track RSVPs easily.",
+        "size": 73,
+        "reviews": 8300,
+        "ratingAvg": 4.5,
+        "downloads": 1500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 600
+            },
+            {
+                "name": "3 star",
+                "count": 1300
+            },
+            {
+                "name": "4 star",
+                "count": 2500
+            },
+            {
+                "name": "5 star",
+                "count": 3600
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app29.png",
+        "title": "TimeTracker",
+        "companyName": "FocusWorks",
+        "id": 29,
+        "description": "Track work hours, productivity, and set daily focus goals.",
+        "size": 40,
+        "reviews": 5900,
+        "ratingAvg": 4.4,
+        "downloads": 980000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200
+            },
+            {
+                "name": "2 star",
+                "count": 400
+            },
+            {
+                "name": "3 star",
+                "count": 1000
+            },
+            {
+                "name": "4 star",
+                "count": 2000
+            },
+            {
+                "name": "5 star",
+                "count": 2300
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/app30.png",
+        "title": "VoiceNote+",
+        "companyName": "SpeakSoft Ltd.",
+        "id": 30,
+        "description": "Record, transcribe, and organize your voice notes instantly with AI.",
+        "size": 64,
+        "reviews": 9600,
+        "ratingAvg": 4.6,
+        "downloads": 2100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 600
+            },
+            {
+                "name": "3 star",
+                "count": 1200
+            },
+            {
+                "name": "4 star",
+                "count": 3100
+            },
+            {
+                "name": "5 star",
+                "count": 6400
+            }
+        ]
     }
 ]

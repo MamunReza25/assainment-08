@@ -23,11 +23,11 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2  shadow ">
                             {links}
                         </ul>
                     </div>
-                    <div className='flex justify-start items-center gap-2'>
+                    <div className='flex  justify-start items-center gap-2'>
                         <img className='w-[50px] h-[50px]' src={logoImg} alt="" />
                         <a className="text-[16px] font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</a>
                     </div>

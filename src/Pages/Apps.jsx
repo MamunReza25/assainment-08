@@ -5,14 +5,14 @@ import AllApps from './AllApps';
 const Apps = () => {
     const apps = useLoaderData();
     return (
-        <div>
-            <div className='py-10 bg-[#F5F5F5]'>
+        <div className='pb-6'>
+            <div className='py-10 bg-[#F5F5F5] px-5 md:px-0'>
                 <h1 className='text-[48px] font-bold text-center text-[#001931]'>Our All Applications</h1>
                 <p className='text-[20px] text-[#627382] text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
 
 
-            <div className='flex justify-between items-center py-5'>
+            <div className='flex justify-between items-center py-5 px-5 md:px-0'>
                 <div>
                     <h1>{apps.length} Apps Found</h1>
                 </div>
@@ -35,7 +35,7 @@ const Apps = () => {
                 </div>
             </div>
             <Suspense fallback={<h1>wait for loadding</h1>}>
-                <div className='grid grid-cols-4 gap-5 bg-[#F5F5F5]'>
+                <div className='grid grid-cols-1 px-5 md:px-0 md:grid-cols-4 gap-5 bg-[#F5F5F5]'>
                     {
                         apps.map(app => <AllApps key={app.id} app={app}></AllApps>)
                     }
