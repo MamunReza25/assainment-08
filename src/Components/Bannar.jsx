@@ -1,15 +1,22 @@
 import React from 'react';
 import bannarImg from '../assets/hero.png'
+import playstore from '../assets/playstore.png'
+import appstore from '../assets/appstore.png'
 const Bannar = () => {
     return (
-        <div className='p-10 bg-[#D2D2D2]'>
+        <div className=' bg-[#D2D2D2]'>
             <h1 className='text-[60px] font-bold text-center'>We Build <br />
                 <span className='text-[#7941E9] text-[70px] font-black'> Productive </span>Apps
             </h1>
             <p className='text-[#627382] text-[16px] font-medium text-center'>
                 At,HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.
             </p>
-            <div className='pt-10'>
+            <div className='flex justify-center items-center gap-5 pt-10'>
+                <button className='btn bg-[#D2D2D2] px-6 py-3 text-[20px] text-[#001931] font-semibold'><img src={playstore} alt="" />Google Play</button>
+                <button className='btn bg-[#D2D2D2] px-6 py-3  text-[20px] text-[#001931] font-semibold'>  <img src={appstore} alt="" />App Store</button>
+
+            </div>
+            <div className='pt-10 flex justify-center items-center'>
                 <img src={bannarImg} alt="" />
             </div>
 

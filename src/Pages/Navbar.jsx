@@ -1,12 +1,15 @@
 import React from 'react';
 import logoImg from '../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router';
 const Navbar = () => {
     const links = <>
         <div className=' flex justify-center items-center gap-5 text-[16px] font-semibold'>
-            <li>Home</li>
-            <li>Apps</li>
-            <li>Installation</li>
+            <Link to='/'> <li>Home</li></Link>
+
+            <Link to='/apps'><li>Apps</li> </Link>
+            <Link to='/installation'> <li>Installation</li></Link>
+
 
         </div>
     </>

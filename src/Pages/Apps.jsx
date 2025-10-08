@@ -1,9 +1,46 @@
-import React from 'react';
+import React, { Suspense } from 'react';
+import { useLoaderData } from 'react-router';
+import AllApps from './AllApps';
 
 const Apps = () => {
+    const apps = useLoaderData();
     return (
         <div>
-            <h1>iam a apps page</h1>
+            <div className='py-10 bg-[#F5F5F5]'>
+                <h1 className='text-[48px] font-bold text-center text-[#001931]'>Our All Applications</h1>
+                <p className='text-[20px] text-[#627382] text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>
+            </div>
+
+
+            <div className='flex justify-between items-center py-5'>
+                <div>
+                    <h1>{apps.length} Apps Found</h1>
+                </div>
+                <div>
+                    <label className="input">
+                        <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <g
+                                strokeLinejoin="round"
+                                strokeLinecap="round"
+                                strokeWidth="2.5"
+                                fill="none"
+                                stroke="currentColor"
+                            >
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.3-4.3"></path>
+                            </g>
+                        </svg>
+                        <input type="search" required placeholder="Search Apps" />
+                    </label>
+                </div>
+            </div>
+            <Suspense fallback={<h1>wait for loadding</h1>}>
+                <div className='grid grid-cols-4 gap-5 bg-[#F5F5F5]'>
+                    {
+                        apps.map(app => <AllApps key={app.id} app={app}></AllApps>)
+                    }
+                </div>
+            </Suspense>
         </div>
     );
 };
