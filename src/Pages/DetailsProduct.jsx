@@ -3,13 +3,18 @@ import { useLoaderData, useParams } from 'react-router';
 import dowunloadImg from '../assets/icon-downloads.png'
 import ratingImg from '../assets/icon-ratings.png'
 import likeImg from '../assets/icon-review.png'
+import { addToProductDB } from '../jsComponent/addToInstalltion ';
 const DetailsProduct = () => {
     const { id } = useParams();
     const productId = parseInt(id)
     const data = useLoaderData();
     const detaise = data.find(product => product.id === productId);
     console.log(detaise)
-    const { image, companyName, title, description, reviews, downloads, ratingAvg } = detaise;
+    const { image, companyName, title, reviews, downloads, ratingAvg } = detaise;
+
+    const handleInstallation = (id) => {
+        addToProductDB(id)
+    }
     return (
         <div className='py-10'>
             <h1>product details</h1>
@@ -40,7 +45,7 @@ const DetailsProduct = () => {
                                 <h1 className='text-3xl font-extrabold text-[#001931]'>{parseInt(reviews / 1000)}k</h1>
                             </div>
                         </div>
-                        <button className='btn'>Install Now (291 MB)</button>
+                        <button onClick={() => handleInstallation(id)} className='btn'>Install Now (291 MB) </button>
 
                     </div>
                 </div>
