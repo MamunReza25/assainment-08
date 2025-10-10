@@ -22,4 +22,10 @@ const addToProductDB = (id) => {
     }
 };
 
-export { addToProductDB, getStoredProduc };
+
+const removeFromProductDB = (id) => {
+    const storedData = getStoredProduc();
+    const remaining = storedData.filter(itemId => itemId !== id);
+    localStorage.setItem("Install Now", JSON.stringify(remaining));
+};
+export { addToProductDB, getStoredProduc, removeFromProductDB };

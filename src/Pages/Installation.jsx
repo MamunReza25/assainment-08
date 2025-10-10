@@ -1,14 +1,22 @@
 
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
-import { getStoredProduc } from '../jsComponent/addToInstalltion ';
+import { getStoredProduc, removeFromProductDB } from '../jsComponent/addToInstalltion ';
 import InstallCard from './InstallCard';
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const Installation = () => {
-
-    const [install, setInstall] = useState([]);
     const productsdata = useLoaderData();
+    const [install, setInstall] = useState([]);
+
+    // const [install, setInstall] = useState(initialData);
+
+    const handleUninstall = (id) => {
+        removeFromProductDB(id);
+        setInstall(prev => prev.filter(item => item.id !== id));
+    };
+
+
     const [sort, setSort] = useState("");
 
     useEffect(() => {
@@ -18,17 +26,17 @@ const Installation = () => {
         setInstall(installationData)
     }, []);
 
+
     const handleSort = (type) => {
         setSort(type);
         if (type === "size") {
             const sortedSize = [...install].sort((a, b) => a.size - b.size);
-            setSort(sortedSize);
-            console.log(sortedSize)
+            setInstall(sortedSize);
+
         }
         if (type === "Number") {
             const sortedDownloads = [...install].sort((a, b) => b.ratingAvg - a.ratingAvg);
-            setSort(sortedDownloads);
-            console.log(sortedDownloads)
+            setInstall(sortedDownloads);
         }
     }
     return (
@@ -57,7 +65,7 @@ const Installation = () => {
             </div>
             <div className='bg-[#F5F5F5]'>
                 {
-                    install.map(product => <InstallCard key={product.id} product={product}></InstallCard>)
+                    install.map(product => <InstallCard handleUninstall={handleUninstall} key={product.id} product={product}></InstallCard>)
                 }
             </div>
         </div>

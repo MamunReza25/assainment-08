@@ -1,9 +1,14 @@
-import React from 'react';
+
 import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 
-const InstallCard = ({ product }) => {
-    console.log(product)
+
+const InstallCard = ({ product, handleUninstall }) => {
+    const { id } = product
+
+
+
+
     const { image, companyName, downloads, ratingAvg } = product;
     return (
         <div>
@@ -23,7 +28,8 @@ const InstallCard = ({ product }) => {
                 </div>
 
                 <div>
-                    <button className='btn bg-[#00D390] text-white'>Uninstall</button>
+                    <button onClick={() => handleUninstall(id)}
+                        className='btn bg-[#00D390] text-white'>Uninstall</button>
                 </div>
             </div>
         </div>
