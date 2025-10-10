@@ -13,6 +13,7 @@ const getStoredProduc = () => {
 const addToProductDB = (id) => {
     const storedData = getStoredProduc();
     if (storedData.includes(id)) {
+
         alert("already installation")
     } else {
         storedData.push(id);

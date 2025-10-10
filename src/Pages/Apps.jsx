@@ -14,7 +14,7 @@ const Apps = () => {
 
             <div className='flex justify-between items-center py-5 px-5 md:px-0'>
                 <div>
-                    <h1>{apps.length} Apps Found</h1>
+                    <h1 className='text-[20px] font-semibold'>({apps.length}) Apps Found</h1>
                 </div>
                 <div>
                     <label className="input">
