@@ -1,9 +1,14 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import AllApps from './AllApps';
 
 const Apps = () => {
     const apps = useLoaderData();
+    const [search, setSearch] = useState("");
+    const term = search.trim().toLocaleLowerCase();
+    const searchApps = term ? apps.filter(product => product.companyName.toLocaleLowerCase().includes(term)) : apps
+    console.log(searchApps)
+
     return (
         <div className='pb-6'>
             <div className='py-10 bg-[#F5F5F5] px-5 md:px-0'>
@@ -14,7 +19,7 @@ const Apps = () => {
 
             <div className='flex justify-between items-center py-5 px-5 md:px-0'>
                 <div>
-                    <h1 className='text-[20px] font-semibold'>({apps.length}) Apps Found</h1>
+                    <h1 className='text-[20px] font-semibold'>({searchApps.length}) Apps Found</h1>
                 </div>
                 <div>
                     <label className="input">
@@ -30,14 +35,14 @@ const Apps = () => {
                                 <path d="m21 21-4.3-4.3"></path>
                             </g>
                         </svg>
-                        <input type="search" required placeholder="Search Apps" />
+                        <input value={search} onChange={(e) => setSearch(e.target.value)} type="search" required placeholder="Search Apps" />
                     </label>
                 </div>
             </div>
             <Suspense fallback={<h1>wait for loadding</h1>}>
                 <div className='grid grid-cols-1 px-5 md:px-0 md:grid-cols-4 gap-5 bg-[#F5F5F5]'>
                     {
-                        apps.map(app => <AllApps key={app.id} app={app}></AllApps>)
+                        searchApps.map(app => <AllApps key={app.id} app={app}></AllApps>)
                     }
                 </div>
             </Suspense>
